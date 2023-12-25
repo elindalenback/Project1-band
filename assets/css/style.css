@@ -116,6 +116,7 @@ footer {
         display: flex;
         justify-content: center;
         height: 2.1875rem;
+        margin-top: 3px;
 
     }
 
@@ -138,7 +139,17 @@ footer {
         font-size: 300%;
         padding-top: 0;
     }
+}
+/* Media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    /* Header*/
+    header {
+        height: 600px;
+    }
 
+    #band-name {
+        font-size: 550%;
+        padding-top: 0;
+    }
 
-    
 }
