@@ -63,7 +63,7 @@ padding-left: 15px;
 }
 
 .active {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
 }
 
 header a {
@@ -93,6 +93,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #fe654f;
 }
 
 /* Main content */
