@@ -108,3 +108,31 @@ main {
 footer {
     background-color: #5c80bc;
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header*/
+    nav {
+        display: flex;
+        justify-content: center;
+        height: 2.1875rem;
+
+    }
+
+    #menu {
+        display: flex;
+        padding-left: 7.5rem;
+
+    }
+
+    #menu > li {
+        margin-right: 6.25rem;
+        padding-top: 0.25rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    
+}
