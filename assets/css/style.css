@@ -29,6 +29,10 @@ header {
     background-color: #fe654f;
 }
 
+h1 {
+    font-family: 'Lobster Two', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: #dce2aa;
