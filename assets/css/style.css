@@ -29,7 +29,7 @@ header {
     background: url("../images/Band_header_2.png") no-repeat center center/cover;
     height: 300px;
     display: flex;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
     align-items: baseline;
     position: fixed;
     z-index: 99;
@@ -133,6 +133,12 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    #band-name {
+        font-size: 300%;
+        padding-top: 0;
+    }
+
 
     
 }
