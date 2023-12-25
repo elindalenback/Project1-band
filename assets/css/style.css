@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #black;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -45,8 +45,19 @@ h1 {
 }
 
 /* Navbar */
-nav {
+#menu {
+font-size: 120%;
+letter-spacing: 2px;
+list-style-type: none;
+padding-left: 15px;
+}
 
+#menu >li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #000000;
 }
 
 header a {
