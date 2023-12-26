@@ -218,6 +218,7 @@ input[type="submit"]:hover {
     opacity: 0.8;
 }
 
+/* Tour Page*/
 /* Tour-date Section */
 #nashville {
     background: url("../images/nashville.jpg") no-repeat center center/cover;
@@ -304,6 +305,9 @@ input[type="submit"]:hover {
     padding: 5px;
     color: #fe654f;
 }
+
+/* Music Page */
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
