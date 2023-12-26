@@ -123,6 +123,27 @@ main {
     padding-top: 10px;
 }
 
+#band-members {
+    background-color: #31572c;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#band-members img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+#band-members > h2,
+#band-members h3 {
+    font-family: 'Lobster Two', sans-serif;
+    color: #fe654f;
+    letter-spacing: 2px;
+    text-transform: none;
+    font-size: 27px;
+}
+
 /* Footer */ 
 footer {
     background-color: #5c80bc;
