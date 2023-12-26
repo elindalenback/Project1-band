@@ -124,6 +124,10 @@ main {
     flex: 1 0 auto;
 }
 
+.other-main {
+    padding-top: 40px;
+}
+
 .main-text {
     text-align: center;
 }
