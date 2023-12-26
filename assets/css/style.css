@@ -44,7 +44,7 @@ h1 {
 
 h2,
 h3 {
-    color: #5c80bc;
+    color: #31572c;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -221,7 +221,7 @@ input[type=submit]:hover {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-    /*Band members Profile - makes the pictures align 2 and 2 */
+    /* Band members Profile aligns imgs 2 and 2 */
     #band-profiles {
         display: flex;
         flex-wrap: wrap;
@@ -300,7 +300,7 @@ input[type=submit]:hover {
         margin: 5em 15em;
     }
 
-    /* Band member profiles aligns 4 in a row */
+    /* Band member profiles aligns imgs 4 in a row */
     #band-profiles {
         column-count: 4;
         justify-content: space-evenly;
