@@ -186,8 +186,19 @@ input[type=submit]:hover {
 }
 
 /* Footer */ 
-footer {
-    background-color: #5c80bc;
+#social {
+    background-color: #baf0f9;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 130%;
+    padding: 5px;
+    color: #fe654f;
 }
 
 /* Media query: tablets and larger (768px and up) */
