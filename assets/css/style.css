@@ -307,7 +307,13 @@ input[type="submit"]:hover {
 }
 
 /* Music Page */
+iframe {
+    max-width: 100%;
+}
 
+#album-list img {
+    width: 100%;
+}
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
