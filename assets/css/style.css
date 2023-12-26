@@ -110,6 +110,10 @@ main {
     flex: 1 0 auto;
 }
 
+.main-text {
+    text-align: center;
+}
+
 .main-text > div {
     padding: 15px;
     line-height: 1.5;
@@ -146,7 +150,8 @@ main {
     font-size: 27px;
 }
 
-/* OBS! BORROWED STYLE FROM: https: //www.w3schools.com/howto/howto_css_newsletter.asp */
+/* Subscribe to newsletter
+OBS! BORROWED STYLE FROM: https: //www.w3schools.com/howto/howto_css_newsletter.asp */
 /* Style the form element with a border around it */
 form {
     border: 4px solid #f1f1f1;
@@ -231,6 +236,7 @@ input[type=submit]:hover {
         font-size: 300%;
         padding-top: 0;
     }
+
 }
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
@@ -247,5 +253,9 @@ input[type=submit]:hover {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
+
+    .main-text {
+        margin: 5em 15em;
+     }
 
 }
