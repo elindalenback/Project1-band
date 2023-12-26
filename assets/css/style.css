@@ -145,7 +145,7 @@ h3 {
 
 /* Headers for Band memebrs profiles */
 #band-members>h2,
-#band-members h3, 
+#band-members h3,
 #band-members h4 {
     font-family: 'Lobster Two', sans-serif;
     color: #fe654f;
@@ -218,10 +218,10 @@ input[type=submit]:hover {
     color: #fe654f;
 }
 
-/* Media query: large or landscape phones (576pxpx and up) */
+/* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-    /*Band members Profile */
+    /*Band members Profile - makes the pictures align 2 and 2 */
     #band-profiles {
         display: flex;
         flex-wrap: wrap;
@@ -294,9 +294,27 @@ input[type=submit]:hover {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
-
+    
+    /* Contains the content so it centers */
     .main-text {
         margin: 5em 15em;
+    }
+
+    /* Band member profiles aligns 4 in a row */
+    #band-profiles {
+        column-count: 4;
+        justify-content: space-evenly;
+
+    }
+
+    #band-profiles>div {
+        width: 20%;
+    }
+    
+    /* Removes the contaning for the section band-members on larger screens */
+    #band-members {
+        margin: 0;
+        padding-bottom: 15px;
     }
 
 }
