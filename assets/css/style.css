@@ -110,16 +110,16 @@ main {
     flex: 1 0 auto;
 }
 
-.main-text {
+.main-text > div {
     padding: 15px;
     line-height: 1.5;
 }
 
-.main-text > h2, h3 {
+.main-text h2, h3 {
     padding-bottom: 10px;
 }
 
-.main-text > h3 {
+.main-text h3 {
     padding-top: 10px;
 }
 
