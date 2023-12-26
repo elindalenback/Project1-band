@@ -58,13 +58,13 @@ h3 {
 
 /* Navbar */
 #menu {
-font-size: 120%;
-letter-spacing: 2px;
-list-style-type: none;
-padding-left: 15px;
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    padding-left: 15px;
 }
 
-#menu >li {
+#menu>li {
     padding-top: 15px;
     margin-bottom: 2em;
 }
@@ -89,6 +89,7 @@ nav {
     display: none;
     top: 20%;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -114,12 +115,13 @@ main {
     text-align: center;
 }
 
-.main-text > div {
+.main-text>div {
     padding: 15px;
     line-height: 1.5;
 }
 
-.main-text h2, h3 {
+.main-text h2,
+h3 {
     padding-bottom: 10px;
 }
 
@@ -141,13 +143,23 @@ main {
     border-radius: 50%;
 }
 
-#band-members > h2,
-#band-members h3 {
+/* Headers for Band memebrs profiles */
+#band-members>h2,
+#band-members h3, 
+#band-members h4 {
     font-family: 'Lobster Two', sans-serif;
     color: #fe654f;
     letter-spacing: 2px;
     text-transform: none;
-    font-size: 27px;
+    font-size: 30px;
+}
+
+#band-members>h2 {
+    padding-top: 15px;
+}
+
+#band-members h4 {
+    font-size: 20px;
 }
 
 /* Subscribe to newsletter
@@ -190,7 +202,7 @@ input[type=submit]:hover {
     opacity: 0.8;
 }
 
-/* Footer */ 
+/* Footer */
 #social {
     background-color: #baf0f9;
     text-align: center;
@@ -206,8 +218,34 @@ input[type=submit]:hover {
     color: #fe654f;
 }
 
+/* Media query: large or landscape phones (576pxpx and up) */
+@media screen and (min-width: 576px) {
+
+    /*Band members Profile */
+    #band-profiles {
+        display: flex;
+        flex-wrap: wrap;
+        column-count: 2;
+        justify-content: space-evenly;
+        margin-top: 15px;
+
+    }
+
+    #band-profiles>div {
+        width: 40%;
+        box-sizing: border-box;
+    }
+
+    #band-members>h2 {
+        font-size: 50px;
+        padding-top: 20px;
+    }
+}
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header*/
     nav {
         display: flex;
@@ -223,7 +261,7 @@ input[type=submit]:hover {
 
     }
 
-    #menu > li {
+    #menu>li {
         margin-right: 6.25rem;
         padding-top: 0.25rem;
     }
@@ -237,9 +275,12 @@ input[type=submit]:hover {
         padding-top: 0;
     }
 
+
 }
+
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+
     /* Header*/
     header {
         height: 600px;
@@ -256,6 +297,6 @@ input[type=submit]:hover {
 
     .main-text {
         margin: 5em 15em;
-     }
+    }
 
 }
