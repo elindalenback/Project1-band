@@ -132,7 +132,9 @@ main {
 
 #band-members img {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 30px;
+    /* Makes the pictures round since they are a true square */
+    border-radius: 50%;
 }
 
 #band-members > h2,
