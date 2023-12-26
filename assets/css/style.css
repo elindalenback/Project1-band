@@ -289,6 +289,33 @@ input[type="submit"]:hover {
     padding-bottom: 40px;
 }
 
+/* Music Page */
+iframe {
+    max-width: 100%;
+    padding: 20px;
+}
+
+#album-list img {
+    width: 100%;
+    padding: 20px;
+}
+
+.listen-button {
+    background-color: #31572c;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 10px 35px;
+    margin: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+    letter-spacing: 2px;
+
+}
+
+.listen-button>a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /* Footer */
 #social {
@@ -304,31 +331,6 @@ input[type="submit"]:hover {
     font-size: 130%;
     padding: 5px;
     color: #fe654f;
-}
-
-/* Music Page */
-iframe {
-    max-width: 100%;
-}
-
-#album-list img {
-    width: 100%;
-}
-
-.listen-button {
-    background-color: #31572c;
-    color: #ffffff;
-    font-size: 100%;
-    padding: 10px 35px;
-    border-radius: 20px;
-    border-color: transparent;
-    letter-spacing: 2px;
-
-}
-
-.listen-button > a {
-    text-decoration: none;
-    color: #ffffff;
 }
 
 /* Media query: large or landscape phones (576px and up) */
