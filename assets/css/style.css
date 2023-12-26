@@ -294,7 +294,7 @@ input[type=submit]:hover {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
-    
+
     /* Contains the content so it centers */
     .main-text {
         margin: 5em 15em;
@@ -310,7 +310,7 @@ input[type=submit]:hover {
     #band-profiles>div {
         width: 20%;
     }
-    
+
     /* Removes the contaning for the section band-members on larger screens */
     #band-members {
         margin: 0;
