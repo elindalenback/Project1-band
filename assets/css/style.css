@@ -200,7 +200,23 @@ input[type="submit"]:hover {
 
 /* Tour-date Section */
 #nashville {
-    
+    background: url("../images/nashville.jpg") no-repeat center center/cover;;
+}
+
+#manchester {
+    background: url("../images/manchester.jpg") no-repeat center center/cover;
+}
+
+#la {
+    background: url("../images/la.jpg") no-repeat center center/cover;
+}
+
+#berlin {
+    background: url("../images/berlin.jpg") no-repeat center center/cover;
+}
+
+#sydney {
+    background: url("../images/sydney.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
