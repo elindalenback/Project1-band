@@ -263,6 +263,11 @@ input[type="submit"]:hover {
     color: #ffffff;
 }
 
+#tour-date {
+    padding-bottom: 40px;
+}
+
+
 /* Footer */
 #social {
     background-color: #baf0f9;
