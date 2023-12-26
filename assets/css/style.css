@@ -108,19 +108,18 @@ main {
     background-color: #dce2aa;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-   /* margin-top: 300px;*/
 }
 
-#about-the-band {
+.main-text {
     padding: 15px;
     line-height: 1.5;
 }
 
-#about-the-band > h2, h3 {
+.main-text > h2, h3 {
     padding-bottom: 10px;
 }
 
-#about-the-band > h3 {
+.main-text > h3 {
     padding-top: 10px;
 }
 
@@ -175,10 +174,5 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
-
-    /* Main content */
-    /*main {
-        margin-top: 600px;
-    }*/
 
 }
