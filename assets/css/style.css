@@ -291,13 +291,14 @@ input[type="submit"]:hover {
 
 /* Music Page */
 iframe {
-    max-width: 100%;
+    width: 100%;
+    height: 350px;
+
 }
 
 #youtube {
-    padding: 100px 20px;
+    padding: 100px 50px;
     background-color: #fe654f;
-    width: 100%;
 }
 
 #album-list {
