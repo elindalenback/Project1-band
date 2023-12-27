@@ -326,6 +326,8 @@ iframe {
     border-radius: 20px;
     border-color: transparent;
     letter-spacing: 2px;
+    display: inline-block;
+
 
 }
 
@@ -493,6 +495,7 @@ iframe {
 
     iframe {
         width: 600px;
+        border: 0;
     }
 
     /*Album-list section*/
