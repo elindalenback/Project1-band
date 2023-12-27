@@ -451,23 +451,24 @@ iframe {
         padding-bottom: 15px;
     }
 
-    /* Removes the contaning for the section albums on larger screens */
+    /* Music page */
+
+    #youtube {
+        padding: 100px;
+        background-color: #fe654f;
+    }
 
     #album-list {
         padding-bottom: 15px;
     }
-
-    /* Youtube section */
-        #youtube {
-            padding: 100px;
-            background-color: #fe654f;
-        }
 
 
 }
 
 /* Media query: large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
+
+    /* Music Page */
     /* Youtube section */
     #youtube {
         display: flex;
@@ -476,5 +477,10 @@ iframe {
 
     iframe {
         width: 600px;
+    }
+
+    /*Album-list section*/
+    #album-order {
+        justify-content: space-evenly;
     }
 }
