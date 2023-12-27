@@ -327,9 +327,14 @@ iframe {
     border-color: transparent;
     letter-spacing: 2px;
     display: inline-block;
-
-
 }
+
+.listen-button:hover {
+    background-color: #bedcba;
+    color: #31572c;
+    border: 1px solid #31572c;
+}
+
 
 #album-order h2 {
     text-align: center;
