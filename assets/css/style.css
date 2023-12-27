@@ -358,28 +358,6 @@ iframe {
     align-items; center;
 }
 
-/* Arrow to scroll back top.
-Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
-.backtop {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    background: #bedcba;
-    bottom: 70px;
-    right: 50px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-    color: #31572c;
-    font-size: 30px;
-}
-
-.backtop:hover {
-    background-color: #31572c;
-    color: #bedcba;
-}
-
-
 /* Footer */
 #social {
     background-color: #baf0f9;
@@ -517,8 +495,6 @@ Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
     #album-list {
         padding-bottom: 15px;
     }
-
-
 }
 
 /* Media query: large screens (1024px and up) */
@@ -540,4 +516,26 @@ Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
     #album-order {
         justify-content: space-evenly;
     }
+
+    /* Arrow to scroll back top.
+    Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
+    .backtop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #bedcba;
+    bottom: 70px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #31572c;
+    font-size: 30px;
+    }
+    
+    .backtop:hover {
+    background-color: #31572c;
+    color: #bedcba;
+    }
+
 }
