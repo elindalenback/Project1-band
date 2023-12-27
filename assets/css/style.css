@@ -531,6 +531,7 @@ iframe {
     line-height: 50px;
     color: #31572c;
     font-size: 30px;
+    border: 2px solid #31572c;
     }
     
     .backtop:hover {
