@@ -465,3 +465,16 @@ iframe {
 
 
 }
+
+/* Media query: large screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+    /* Youtube section */
+    #youtube {
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 600px;
+    }
+}
