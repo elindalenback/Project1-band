@@ -355,6 +355,10 @@ iframe {
     color: #fe654f;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
