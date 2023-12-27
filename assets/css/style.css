@@ -85,7 +85,8 @@ h3 {
 }
 
 .active {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #baf0f9;
+    color: #baf0f9;
 }
 
 header a {
@@ -316,7 +317,7 @@ iframe {
     width: 100%;
     padding: 20px;
 }
-
+ /* Style for span to act like a button */
 .listen-button {
     background-color: #31572c;
     color: #ffffff;
@@ -329,12 +330,12 @@ iframe {
     display: inline-block;
 }
 
+/* Hover effect for button */
 .listen-button:hover {
     background-color: #bedcba;
     color: #31572c;
     border: 1px solid #31572c;
 }
-
 
 #album-order h2 {
     text-align: center;
@@ -450,7 +451,8 @@ iframe {
     }
 
     #menu a:hover {
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #baf0f9;
+        color: #baf0f9;
     }
 
     /* Contains the content so it centers */
