@@ -324,9 +324,14 @@ iframe {
 
 }
 
-.listen-button>a {
-    text-decoration: none;
-    color: #ffffff;
+#album-order h2 {
+    text-align: center;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items; center;
 }
 
 /* Footer */
