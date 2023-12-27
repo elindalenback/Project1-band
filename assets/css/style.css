@@ -210,7 +210,8 @@ form {
 
 /* Style the input elements and the submit button */
 input[type="text"],
-input[type="submit"] {
+input[type="submit"], 
+input[type="email"] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -226,7 +227,7 @@ input[type="checkbox"] {
 
 /* Style the submit button */
 input[type="submit"] {
-    background-color: #04aa6d;
+    background-color: #31572c;
     color: white;
     border: none;
 }
