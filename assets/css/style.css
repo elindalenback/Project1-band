@@ -157,6 +157,7 @@ h3 {
     padding-top: 10px;
 }
 
+/* Band members section on home page */
 #band-members {
     background-color: #31572c;
     color: #ffffff;
@@ -240,6 +241,10 @@ input[type="submit"]:hover {
     background: url("../images/nashville.jpg") no-repeat center center/cover;
 }
 
+#nashville:hover {
+    transform: scale(1.2);
+}
+
 #nashville>div {
     background-color: rgb(0, 0, 0, 0.7);
     color: #ffffff;
@@ -251,6 +256,10 @@ input[type="submit"]:hover {
 
 #manchester {
     background: url("../images/manchester.jpg") no-repeat center center/cover;
+}
+
+#manchester:hover {
+    transform: scale(1.2);
 }
 
 #manchester>div {
@@ -266,6 +275,10 @@ input[type="submit"]:hover {
     background: url("../images/la.jpg") no-repeat center center/cover;
 }
 
+#la:hover {
+    transform: scale(1.2);
+}
+
 #la>div {
     background-color: rgb(0, 0, 0, 0.7);
     color: #ffffff;
@@ -279,6 +292,10 @@ input[type="submit"]:hover {
     background: url("../images/berlin.jpg") no-repeat center center/cover;
 }
 
+#berlin:hover {
+    transform: scale(1.2);
+}
+
 #berlin>div {
     background-color: rgb(0, 0, 0, 0.7);
     color: #ffffff;
@@ -290,6 +307,10 @@ input[type="submit"]:hover {
 
 #sydney {
     background: url("../images/sydney.jpg") no-repeat center center/cover;
+}
+
+#sydney:hover {
+    transform: scale(1.2);
 }
 
 #sydney>div {
@@ -307,6 +328,10 @@ input[type="submit"]:hover {
 
 #tour-date > div {
     padding: 0;
+}
+
+#tour-date a {
+    text-decoration: none;
 }
 
 /* Music Page */
