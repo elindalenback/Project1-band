@@ -454,9 +454,14 @@ iframe {
     /* Removes the contaning for the section albums on larger screens */
 
     #album-list {
-        margin: 0;
         padding-bottom: 15px;
     }
+
+    /* Youtube section */
+        #youtube {
+            padding: 100px;
+            background-color: #fe654f;
+        }
 
 
 }
