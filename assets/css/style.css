@@ -374,6 +374,12 @@ Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
     font-size: 30px;
 }
 
+.backtop:hover {
+    background-color: #31572c;
+    color: #bedcba;
+}
+
+
 /* Footer */
 #social {
     background-color: #baf0f9;
