@@ -22,6 +22,7 @@ body {
 }
 
 /* Header */
+/* Header for home page */
 #home {
     background: url("../images/bandheader.png") no-repeat center center/cover;
     height: 300px;
@@ -33,6 +34,7 @@ body {
     width: 100%;
 }
 
+/* Header for music and tour pages */
 .other-header {
     background-color: #baf0f9;
     display: flex;
@@ -44,7 +46,7 @@ body {
     padding-bottom: 10px;
 
 }
-
+/* Move nav to bottom of other header */
 .other-header nav {
     top: 95%;
 }
