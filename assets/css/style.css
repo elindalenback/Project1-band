@@ -21,6 +21,12 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Makes scrolling to top smother.
+Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
+html body {
+    scroll-behavior: smooth;
+}
+
 /* Header */
 /* Header for home page */
 #home {
@@ -307,7 +313,6 @@ input[type="submit"]:hover {
 iframe {
     width: 100%;
     height: 350px;
-
 }
 
 #youtube {
@@ -351,6 +356,22 @@ iframe {
     display: flex;
     justify-content: center;
     align-items; center;
+}
+
+/* Arrow to scroll back top.
+Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
+.backtop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #bedcba;
+    bottom: 70px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #31572c;
+    font-size: 30px;
 }
 
 /* Footer */
@@ -439,8 +460,6 @@ iframe {
         font-size: 300%;
         padding-top: 0;
     }
-
-
 }
 
 /* Media query: laptops and larger (992px and up) */
