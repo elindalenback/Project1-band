@@ -127,6 +127,7 @@ main {
     flex: 1 0 auto;
 }
 
+/* Main for pages music and tour*/
 .other-main {
     padding-top: 40px;
 }
@@ -161,6 +162,11 @@ h3 {
     padding-top: 30px;
     /* Makes the pictures round since they are a true square */
     border-radius: 50%;
+}
+
+/* Makes band pictures bigger when hover */
+#band-members img:hover {
+    transform: scale(1.1);
 }
 
 /* Headers for Band memebrs profiles */
