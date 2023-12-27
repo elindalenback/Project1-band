@@ -132,6 +132,7 @@ main {
 
 .main-text {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .main-text>div {
