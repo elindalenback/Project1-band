@@ -92,3 +92,87 @@ Wireframes were produced using Balsamiq.
 
 ![Mobile Wireframe](docs/wireframes/rolling-echoes-phone.png)
  </details>
+
+## Features
+
+The website has 4 pages. One home page, one Tour page, one Music page, and one Thank you page. All pages are responsive and have:
+
+A favicon in the browser tab.
+
+![Favicon](docs/readme_images/browser-tab.png)
+
+The home, music, and tour page also have:
+
+The name of the band at the top of every page and a navigation bar to easily navigate on the site. On mobile devices the navigation bar is displayed as a drop down toggle. The band name also works as a link to go back to the Home page. 
+  
+![Header](docs/readme_images/header-nav.png)
+![Header Mobile](docs/readme_images/nav-mobile.png)
+
+A footer with icons and links to social media pages. All links opens in new tabs. 
+
+![Footer](docs/readme_images/footer.png)
+
+## The Home Page
+The home page for Rolling Echoes displays a big picture of the band. And the first section contains an introduction to the band. 
+
+![Homepage](docs/readme_images/home-page.png)
+
+### The Band Members
+The second section contains pictures of the band members with short accompanying text.
+
+When hoovering over the pictures on a laptop they scale up slightly. This feature is added to keep the user engaged on the site.
+
+![Band members and introductions](docs/readme_images/band-members.png)
+
+### Sign Up Form
+The last section of the Home page contains a sign up form where the users can sign up to a newsletter to resieve the latest information from the band.
+
+![Sign up form](docs/readme_images/newsletter.png)
+
+## Feedback page
+
+When clicking the submit button on the form the site redirects the user to a feedback page. This is to keep the user infromed that their inforation has been correctly sent and improve their user experience.
+
+![Thank you message on feedback page](docs/readme_images/feedback.png)
+
+## The Tour Page
+
+This page contains a short text and about the live experience with the band. 
+
+![The Tour Page](docs/readme_images/tour-page.png)
+
+### The Tour Dates
+
+This section contains images of the citys where the band will performe. Each picture contains the country, city, date, venue, and time. When a picture/location is hoverd on a laptop it scales up to improve user experience and to indicate that it is a clickable link. The link redirects the user to a ticket sight.
+
+![Tour dates - not hoverd](docs/readme_images/tour-close-up.png)
+Not hovered
+
+![Tour dates - hoverd](docs/readme_images/tour-feature-hover.png)
+Hovered
+
+## The Music Page
+
+The Music Page first section contains a short text about the latest releases. Then it displays a video segment where the bands latest music video is supposed to be.
+
+![Music landing page](docs/readme_images/music-landing-page.png)
+
+### The Albums
+
+After this there is an Albums section where the bands latest albums are displayd. The images of the albums are accompanied with a "Listen-Button" whith a link that redirects the user to Spotify.
+
+![Album Section](docs/readme_images/album-page.png)
+
+## Other Feauters
+
+- The buttons change color when hoverd.
+  
+- The pages in the navbar have both hover and when you enter one of the pages this icon/name is then underlined and slightly changed in color. 
+  
+- On larger screens/laptops there is a "Scroll Back to Top" feature added in the form of an arrow. When clicked the user will be scrolled back to the top of the page. It also has a hover effect to indicate that the user is holding the mouse over something clickable.
+
+![Scroll back to top arrow](docs/readme_images/back-to-top.png) When not hoverd.
+
+![Scroll back to top arrow - hoverd](docs/readme_images/back-to-top-hover.png) When hoverd.
+  
+**The aforementioned elements are implemented to enhance user interaction and improve overall user experience.**
