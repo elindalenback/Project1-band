@@ -364,7 +364,8 @@ iframe {
     border-radius: 20px;
     border-color: transparent;
     letter-spacing: 2px;
-    display: inline-block;
+    display: inline-block
+;
 }
 
 /* Hover effect for button */
@@ -382,6 +383,19 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* Feedback page */
+#thanks{
+    padding-top: 200px;
+}
+
+#thanks>h1 {
+    font-size: 200%;
+}
+
+.feedback {
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 /* Footer */
