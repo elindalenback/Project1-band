@@ -176,3 +176,70 @@ After this there is an Albums section where the bands latest albums are displayd
 ![Scroll back to top arrow - hoverd](docs/readme_images/back-to-top-hover.png) When hoverd.
   
 **The aforementioned elements are implemented to enhance user interaction and improve overall user experience.**
+
+## Features left to impliment
+Currently, the "Subscribe To Our Newsletter" form is not functioning correctly as the submitted information has no designated destination. In the future, my goal is to implement a properly working form that efficiently processes and stores the submitted data.
+
+## Testing 
+
+### Validator Testing
+
+- #### HTML
+  - No errors were returned when passing through the official W3C Markup Validator
+    - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2Findex.html)
+
+- #### CSS
+  - No errors were found when passing through the official W3C CSS Validator
+    - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Faliokeeffe.github.io%252Fmindyoga%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- #### Accessibility
+  - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+  
+![Lighthouse testing](docs/readme_images/light-house-test.png)
+
+
+### Form Testing
+- The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
+
+### Links Testing
+- All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+- Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
+- All links to other sites where tested manually to ensure they direct the user to the correct page and open in a new tab.
+
+### Browser Testing
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+    
+### Device Testing
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+- I also used the following website to test responsiveness:
+    - [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
+
+
+### Friends and Family User Testing
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Fixed Bugs
+
+#### Embedded CSS in YouTube Iframe
+
+**Issue:** The `<iframe>` from YouTube had embedded CSS, failing the validation test.
+
+**Resolution:** Transferred the embedded styles to an external CSS file for better organization and maintainability.
+
+#### Button Validation Issue
+
+**Issue:** Utilized buttons with a `<a>` link nested inside, but the validator did not pass. Attempted nesting a `<button>` within a link, but the problem persisted.
+
+**Resolution:** After research, replaced the `<button>` with a `<span>` and added additional styling (e.g., `display: inline-block;`). This adjustment passed the validation test.
+
+#### Header Styling
+
+**Issue:** Attempted to decrease the size of the header, resulting in unpredictable styling issues.
+
+**Resolution:** Adjusted the background picture to a color matching the top of the image. Implemented additional styling to ensure a seamless appearance.
+
+### Typing Error in CSS Class
+
+**Issue:** Made a typing error in a CSS class.
+
+**Resolution:** Corrected the typing error to ensure proper styling and functionality.
