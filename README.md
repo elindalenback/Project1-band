@@ -6,7 +6,7 @@ The fictional band page for Rolling Echoes is designed for fans, followers, and 
 
 Visit the deployed site: [Rolling Echoes](https://elindalenback.github.io/Project1-band/music.html)
 
-![Rolling Echoes](assets/images/amiresponsiverollingechoes.png)
+![Rolling Echoes](docs/readme_images/amiresponsiverollingechoes.png)
 
 ## Site Owner Goals for Rolling Echoes Band Page
 
@@ -58,10 +58,10 @@ I have chosen my colors to evoke a sense of the band and optimize the user exper
 
 Additionally, I've extracted the blue color (#baf0f9) from the header picture to maintain consistency across the music and tour pages, as well as in the footer, ensuring a cohesive overall styling.
 
-![Color Scheme](assets/images/recolor.png)
+![Color Scheme](docs/readme_images/recolor.png)
 
-![Color Scheme Header](assets/images/header.png)
-![Color Scheme Header](assets/images/footer.png)
+![Color Scheme Header](docs/readme_images/header.png)
+![Color Scheme Header](docs/readme_images/footer.png)
 **#baf0f9 color for header and footer**
 
 ### Typography
@@ -70,8 +70,8 @@ Additionally, I've extracted the blue color (#baf0f9) from the header picture to
 
 For the Band Name Logo in the header, I opted for the 'Lobster Two' font with a fallback of sans-serif for versatility. This choice is consistently extended to the band members section and the 'Thank you' message in the feedback.html page. This intentional selection aims to emphasize a direct and cohesive visual connection with the essence of the band throughout the website.
 
-![Lobster Two](assets/images/lobster.png)
+![Lobster Two](docs/readme_images/lobster.png)
 
 For the body text, I've implemented the sans-serif font 'Montserrat.' I chose a sans-serif font as it enhances readability on screens. The fallback font in this case is, of course, sans-serif, ensuring a consistent and visually pleasing presentation across various devices.
 
-![Montserrat](assets/images/montserrat.png)
+![Montserrat](docs/readme_images/montserrat.png)
