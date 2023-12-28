@@ -245,6 +245,7 @@ Friends and family members were asked to review the site and documentation to po
 **Resolution:** Corrected the typing error to ensure proper styling and functionality.
 
 ### Known Bugs
+The Sign-Up to Newsletter form had a 'method' attribute initially. This caused errors when attempting to redirect to the thank-you message on the feedback form when clicking the submit button. To address this bug, I removed the 'method' attribute entirely, albeit at the cost of temporarily disabling the form's ability to send information. This functionality can be restored later using JavaScript. For now, it remains a fun feature to receive a message upon form submission.
 
 HTML Smooth Scroll does not work on Safari browser.
 
