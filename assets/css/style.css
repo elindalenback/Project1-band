@@ -336,6 +336,10 @@ input[type="submit"]:hover {
     text-decoration: none;
 }
 
+.tour-text {
+    padding: 20px;
+}
+
 /* Music Page */
 iframe {
     width: 100%;
