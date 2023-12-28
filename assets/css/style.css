@@ -21,9 +21,9 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-/* Makes scrolling to top smother.
+/* Makes scrolling to top smoother.
 Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
-html body {
+html {
     scroll-behavior: smooth;
 }
 

@@ -31,19 +31,19 @@ Offer a sign-up option for the Rolling Echoes Newsletter to keep fans in the loo
 
 #### First-time User
 
-- As a first-time fan, I want to understand the musical journey of Rolling Echoes and discover the unique blend of country, indie rock, and singer-songwriter vibes that define the band's sound.
-- As a first-time fan, I want to navigate the band page intuitively, creating a positive and engaging experience as I explore the latest updates and music releases.
-- As a first-time fan, I want to explore Rolling Echoes' content without the need to sign up or register, allowing me to get a feel for the band's style.
+- As a first-time user, I want to understand the musical journey of Rolling Echoes and discover the unique blend of country, indie rock, and singer-songwriter vibes that define the band's sound.
+- As a first-time user, I want to navigate the band page intuitively, creating a positive and engaging experience as I explore the latest updates and music releases.
+- As a first-time user, I want to explore Rolling Echoes' content without the need to sign up or register, allowing me to get a feel for the band's style.
 
 #### Returning User
 
-- As a returning fan, I want to easily navigate to the latest music releases.
-- As a returning fan, I want to discover upcoming tour dates and venues to plan my attendance at Rolling Echoes' live performances.
+- As a returning user, I want to easily navigate to the latest music releases.
+- As a returning user, I want to discover upcoming tour dates and venues to plan my attendance at Rolling Echoes' live performances.
 
 #### Dedicated User
 
-- As a dedicated fan, I want to sign up for the Rolling Echoes newsletter to receive exclusive updates about new music, tour announcements, and behind-the-scenes content.
-- As a dedicated fan, I want to contribute by sharing my experiences, suggesting ideas, and connecting with fellow fans in the Rolling Echoes community.
+- As a dedicated user, I want to sign up for the Rolling Echoes newsletter to receive exclusive updates about new music, tour announcements, and behind-the-scenes content.
+- As a dedicated user, I want to contribute by sharing my experiences, suggesting ideas, and connecting with fellow fans in the Rolling Echoes community.
 
 ## Design
 
@@ -120,7 +120,7 @@ The home page for Rolling Echoes displays a big picture of the band. And the fir
 ### The Band Members
 The second section contains pictures of the band members with short accompanying text.
 
-When hoovering over the pictures on a laptop they scale up slightly. This feature is added to keep the user engaged on the site.
+When hovering over the pictures on a laptop they scale up slightly. This feature is added to keep the user engaged on the site.
 
 ![Band members and introductions](docs/readme_images/band-members.png)
 
