@@ -75,3 +75,20 @@ For the Band Name Logo in the header, I opted for the 'Lobster Two' font with a 
 For the body text, I've implemented the sans-serif font 'Montserrat.' I chose a sans-serif font as it enhances readability on screens. The fallback font in this case is, of course, sans-serif, ensuring a consistent and visually pleasing presentation across various devices.
 
 ![Montserrat](docs/readme_images/montserrat.png)
+
+## Wireframes
+
+Wireframes were produced using Balsamiq.
+
+ <details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](docs/wireframes/rolling-echoes-desktop.png)
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](docs/wireframes/rolling-echoes-phone.png)
+ </details>
