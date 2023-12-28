@@ -56,10 +56,22 @@ I have chosen my colors to evoke a sense of the band and optimize the user exper
 - The green color is also used for buttons - going from shades dark to light.
 - #fe654f is used in the band name logo to make a bold first impression. It is also used in the nav and icons for social media icons in footer.
 
-Additionally, I've extracted the blue color from the header picture to maintain consistency across the music and tour pages, as well as in the footer, ensuring a cohesive overall styling.
+Additionally, I've extracted the blue color (#baf0f9) from the header picture to maintain consistency across the music and tour pages, as well as in the footer, ensuring a cohesive overall styling.
 
 ![Color Scheme](assets/images/recolor.png)
 
 ![Color Scheme Header](assets/images/header.png)
 ![Color Scheme Header](assets/images/footer.png)
 **#baf0f9 color for header and footer**
+
+### Typography
+
+*Google Fonts fas used to import the fonts.*
+
+For the Band Name Logo in the header, I opted for the 'Lobster Two' font with a fallback of sans-serif for versatility. This choice is consistently extended to the band members section and the 'Thank you' message in the feedback.html page. This intentional selection aims to emphasize a direct and cohesive visual connection with the essence of the band throughout the website.
+
+![Lobster Two](assets/images/lobster.png)
+
+For the body text, I've implemented the sans-serif font 'Montserrat.' I chose a sans-serif font as it enhances readability on screens. The fallback font in this case is, of course, sans-serif, ensuring a consistent and visually pleasing presentation across various devices.
+
+![Montserrat](assets/images/montserrat.png)
