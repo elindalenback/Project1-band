@@ -52,6 +52,7 @@ html body {
     padding-bottom: 10px;
 
 }
+
 /* Move nav to bottom of other header */
 .other-header nav {
     top: 95%;
@@ -210,7 +211,7 @@ form {
 
 /* Style the input elements and the submit button */
 input[type="text"],
-input[type="submit"], 
+input[type="submit"],
 input[type="email"] {
     width: 100%;
     padding: 12px;
@@ -327,7 +328,7 @@ input[type="submit"]:hover {
     padding-bottom: 40px;
 }
 
-#tour-date > div {
+#tour-date>div {
     padding: 0;
 }
 
@@ -354,7 +355,8 @@ iframe {
     width: 100%;
     padding: 20px;
 }
- /* Style for span to act like a button */
+
+/* Style for span to act like a button */
 .listen-button {
     background-color: #31572c;
     color: #ffffff;
@@ -364,8 +366,7 @@ iframe {
     border-radius: 20px;
     border-color: transparent;
     letter-spacing: 2px;
-    display: inline-block
-;
+    display: inline-block;
 }
 
 /* Hover effect for button */
@@ -384,8 +385,9 @@ iframe {
     justify-content: center;
     align-items: center;
 }
+
 /* Feedback page */
-#thanks{
+#thanks {
     padding-top: 200px;
 }
 
@@ -415,6 +417,10 @@ iframe {
 }
 
 .hidden {
+    display: none;
+}
+
+.backtop {
     display: none;
 }
 
@@ -535,6 +541,29 @@ iframe {
     #album-list {
         padding-bottom: 15px;
     }
+
+    /* Arrow to scroll back top.
+        Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
+    .backtop {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        background: #bedcba;
+        bottom: 70px;
+        right: 50px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        color: #31572c;
+        font-size: 30px;
+        border: 2px solid #31572c;
+        display: block;
+    }
+
+    .backtop:hover {
+        background-color: #31572c;
+        color: #bedcba;
+    }
 }
 
 /* Media query: large screens (1024px and up) */
@@ -555,28 +584,6 @@ iframe {
     /*Album-list section*/
     #album-order {
         justify-content: space-evenly;
-    }
-
-    /* Arrow to scroll back top.
-    Found on Youtube: https://www.youtube.com/watch?v=Vef9bxTilCU */
-    .backtop {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    background: #bedcba;
-    bottom: 70px;
-    right: 50px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-    color: #31572c;
-    font-size: 30px;
-    border: 2px solid #31572c;
-    }
-    
-    .backtop:hover {
-    background-color: #31572c;
-    color: #bedcba;
     }
 
 }
