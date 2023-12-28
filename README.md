@@ -52,7 +52,7 @@ Offer a sign-up option for the Rolling Echoes Newsletter to keep fans in the loo
 I have chosen my colors to evoke a sense of the band and optimize the user experience and accessibility. The colors I've used are listed below, along with their respective placements.
 
 - #000000 & #ffffff are used for the sites text.
-- #31572c, #fe654f & # dce2aa are the main colors I have chosen, using them rotationally for backgrounds and headings.
+- #31572c, #fe654f & #dce2aa are the main colors I have chosen, using them rotationally for backgrounds and headings.
 - The green color is also used for buttons - going from shades dark to light.
 - #fe654f is used in the band name logo to make a bold first impression. It is also used in the nav and icons for social media icons in footer.
 
@@ -66,7 +66,7 @@ Additionally, I've extracted the blue color (#baf0f9) from the header picture to
 
 ### Typography
 
-*Google Fonts fas used to import the fonts.*
+*Google Fonts was used to import the fonts.*
 
 For the Band Name Logo in the header, I opted for the 'Lobster Two' font with a fallback of sans-serif for versatility. This choice is consistently extended to the band members section and the 'Thank you' message in the feedback.html page. This intentional selection aims to emphasize a direct and cohesive visual connection with the essence of the band throughout the website.
 
