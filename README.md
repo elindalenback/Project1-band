@@ -243,3 +243,73 @@ Friends and family members were asked to review the site and documentation to po
 **Issue:** Made a typing error in a CSS class.
 
 **Resolution:** Corrected the typing error to ensure proper styling and functionality.
+
+### Known Bugs
+
+HTML Smooth Scroll does not work on Safari browser.
+
+## Technologies Used
+
+### Languages
+
+- HTML5
+- CSS
+
+### Frameworks - Libraries - Programs Used
+
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer and icons in nav-bar.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The live link can be found here - [Rolling Echoes](https://elindalenback.github.io/Project1-band/music.html)
+
+## Credits
+
+### Content
+All content on this site was created with AI.
+- Chat GPT for text
+- DALL E 2 for pictures
+
+### Media
+
+All images and videos were sourced from the below websites with thanks to the below amazing photographers
+
+- [Pexels](https://www.pexels.com/)
+  - Cesar G
+  - Muhammed Zahid Bulut
+  - Giovanni Calia
+  - Esther
+  - Rijan Hamidovic
+
+- Youtube video used to display the music video feature was the amazing[
+Rick Astley - Never Gonna Give You Up (Official Music Video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+### Resources Used
+
+- Inspiration for header with navigation bar with drop down toggle - [Code Institute](https://codeinstitute.net/)s 'Love Running Project'
+- Inspiration for footer with social media icons - [Code Institute](https://codeinstitute.net/)s 'Love Running Project'
+- Help and inspiration was found on [W3Schools](https://www.w3schools.com/)
+- Form to subscribe to Newsletter was found on [W3Schools](https://www.w3schools.com/howto/howto_css_newsletter.asp)
+- The Scroll Back To Top Arrow was created using this youtube video [DARKCODE](https://www.youtube.com/watch?v=Vef9bxTilCU)
+
+## Acknowledgments
+
+My mentor Jubril for his support and advice.
+
+My fellow student Anton Eriksson
