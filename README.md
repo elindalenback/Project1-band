@@ -305,9 +305,11 @@ Rick Astley - Never Gonna Give You Up (Official Music Video](https://www.youtube
 
 - Inspiration for header with navigation bar with drop down toggle - [Code Institute](https://codeinstitute.net/)s 'Love Running Project'
 - Inspiration for footer with social media icons - [Code Institute](https://codeinstitute.net/)s 'Love Running Project'
+- Inspiration for Tour date section - [Code Institute](https://codeinstitute.net/)s 'Love Running Project'
 - Help and inspiration was found on [W3Schools](https://www.w3schools.com/)
 - Form to subscribe to Newsletter was found on [W3Schools](https://www.w3schools.com/howto/howto_css_newsletter.asp)
 - The Scroll Back To Top Arrow was created using this youtube video [DARKCODE](https://www.youtube.com/watch?v=Vef9bxTilCU)
+- 
 
 ## Acknowledgments
 
